@@ -9,6 +9,7 @@
 .qcontainer{
 display: flex;
 flex-wrap: wrap;
+justify-content: space-around;
 padding: 8px;
 padding-bottom: 30px;
 overflow: hidden;
@@ -18,6 +19,7 @@ margin-top: 0;
 .qcont{
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
   padding: 8px;
   padding-bottom: 30px;
   overflow: hidden;
