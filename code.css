@@ -11,7 +11,7 @@ width: 100%;
 height: auto;
 display: flex;
 flex-wrap: wrap;
-align-content: space-around;
+justify-content: space-around;
 padding: 8px;
 padding-bottom: 30px;
 overflow: hidden;
@@ -21,13 +21,12 @@ margin-top: 0;
 
 
 .item-left, .items-left,.item-Left, .items-Left, .item-l, .items-l, .item-L, .items-L{
-  justify-content: left;
+  justify-content: flex-start;
 }
 
 .item-right, .items-right, .item-Right, .items-Right, .item-r, .items-r, .item-R, .items-R{
-  align-content: flex-end
+  justify-content: flex-end;
 }
-
 .item-centre, .items-centre, .item-Centre, .items-Centre, .item-c, .items-c, .item-C, .items-C{
   justify-content: center;
 }
